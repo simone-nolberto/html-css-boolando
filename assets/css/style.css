@@ -14,6 +14,7 @@ ul{
 
 /* #region header */
 header{
+    color: white;
     background-color: var(--boolando-primary);
     display: flex;
     justify-content: space-around;
@@ -27,7 +28,7 @@ header{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 30px 80px;
+    margin: 30px 250px;
 
 }
 .card{
@@ -37,6 +38,18 @@ header{
     border: 1px solid;
     margin: 5px 15px;
     position: relative;
+}
+.card-name{
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+
+}
+.price{
+    color: red;
+}
+.original-price{
+    text-decoration:line-through;
 }
 img{
     max-width: 100%;
