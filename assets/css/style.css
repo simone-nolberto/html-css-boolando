@@ -46,6 +46,7 @@ header {
     border: 1px solid;
     margin: 40px 10px;
     position: relative;
+    align-self: center;
 }
 
 .card-name {
@@ -118,14 +119,12 @@ img {
 /* #endregion main */
 /* #region footer */
 footer {
+    width: 100%;
     background-color: var(--boolando-dark);
     color: white;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
 }
 
 /* #endregion footer */
