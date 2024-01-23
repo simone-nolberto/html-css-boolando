@@ -21,12 +21,18 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
 }
+
 
 /* #endregion header */
 /* #region main */
 .container {
     width: 1000px;
+    height: 800px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -35,7 +41,7 @@ header {
 
 .card {
     background-color: lightgrey;
-    height: 400px;
+    height: 360px;
     width: 250px;
     border: 1px solid;
     margin: 40px 10px;
@@ -76,7 +82,7 @@ img {
     background-color: red;
     max-width: fit-content;
     position: absolute;
-    bottom: 20px;
+    bottom: 80px;
     left: 0;
 }
 
@@ -85,8 +91,9 @@ img {
     padding: 0.25rem;
     background-color: green;
     max-width: fit-content;
-    position: relative;
+    position: absolute;
     left: 50px;
+    bottom: 80px;
 }
 
 .saved {
@@ -116,6 +123,9 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 /* #endregion footer */
